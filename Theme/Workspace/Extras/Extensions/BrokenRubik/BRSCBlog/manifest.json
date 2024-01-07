@@ -1,0 +1,90 @@
+{
+	"name": "BRSCBlog",
+	"fantasyName": "Broken Rubik SC Blog",
+	"vendor": "BrokenRubik",
+	"type": "extension",
+	"target": "SCA,SCS",
+	"target_version": {
+		"SCA": "",
+		"SCS": ""
+	},
+	"version": "2.3.50",
+	"description": "Blog capabilities for SC/SCA sites.",
+	"assets": {
+		"img": {
+			"files": []
+		},
+		"fonts": {
+			"files": []
+		},
+		"services": {
+			"files": [
+				"services/BRSCBlog.Service.ss"
+			]
+		}
+	},
+	"configuration": {
+		"files": []
+	},
+	"templates": {
+		"application": {
+			"shopping": {
+				"files": [
+					"Modules/BRSCBlogModule/Templates/brsc-blog-comments.tpl",
+					"Modules/BRSCBlogModule/Templates/brsc-blog-home.tpl",
+					"Modules/BRSCBlogModule/Templates/brsc-blog-post.tpl",
+					"Modules/BRSCBlogModule/Templates/brsc-blog-posts-list.tpl",
+					"Modules/BRSCBlogModule/Templates/brsc-blog-sidenav.tpl"
+				]
+			}
+		}
+	},
+	"sass": {
+		"entry_points": {
+			"shopping": "Modules/BRSCBlogModule/Sass/_brscblog-entry-point.scss"
+		},
+		"files": [
+			"Modules/BRSCBlogModule/Sass/_brscblog-entry-point.scss",
+			"Modules/BRSCBlogModule/Sass/_brsc-blog-base.scss",
+			"Modules/BRSCBlogModule/Sass/_brsc-blog-comments.scss",
+			"Modules/BRSCBlogModule/Sass/_brsc-blog-share.scss",
+			"Modules/BRSCBlogModule/Sass/_brsc-blog-variables.scss"
+		]
+	},
+	"javascript": {
+		"entry_points": {
+			"shopping": "Modules/BRSCBlogModule/JavaScript/BRSCBlog.EntryPoint.js"
+		},
+		"application": {
+			"shopping": {
+				"files": [
+					"Modules/BRSCBlogModule/JavaScript/BRSCBlog.EntryPoint.js",
+					"Modules/BRSCBlogModule/JavaScript/BRSCBlog.Comments.View.js",
+					"Modules/BRSCBlogModule/JavaScript/BRSCBlog.Home.View.js",
+					"Modules/BRSCBlogModule/JavaScript/BRSCBlog.Model.js",
+					"Modules/BRSCBlogModule/JavaScript/BRSCBlog.Post.View.js",
+					"Modules/BRSCBlogModule/JavaScript/BRSCBlog.Posts.List.View.js",
+					"Modules/BRSCBlogModule/JavaScript/BRSCBlog.ProductDetails.Information.Plugin.js",
+					"Modules/BRSCBlogModule/JavaScript/BRSCBlog.Router.js",
+					"Modules/BRSCBlogModule/JavaScript/BRSCBlog.SideNav.View.js"
+				]
+			}
+		}
+	},
+	"ssp-libraries": {
+		"entry_point": "Modules/BRSCBlogModule/SuiteScript/BRSCBlog.EntryPoint.js",
+		"files": [
+			"Modules/BRSCBlogModule/SuiteScript/BRSCBlog.EntryPoint.js",
+			"Modules/BRSCBlogModule/SuiteScript/BRSCBlog.Configuration.js",
+			"Modules/BRSCBlogModule/SuiteScript/BRSCBlog.Model.js",
+			"Modules/BRSCBlogModule/SuiteScript/BRSCBlog.ServiceController.js",
+			"Modules/BRSCBlogModule/SuiteScript/BRSCBlog.EventHandler.js",
+			"Modules/BRSCBlogModule/SuiteScript/BRSCBlog.Middleware.js",
+			"Modules/PermissionPluginModule/SuiteScript/PermissionPlugin.EntryPoint.js",
+			"Modules/PluginModule/SuiteScript/PluginManager.EntryPoint.js"
+		]
+	},
+	"path": "SuiteScripts/Deploy_Extensions/BrokenRubik/BRSCBlog@2.3.50",
+	"activation_id": "36",
+	"extension_id": "14601"
+}

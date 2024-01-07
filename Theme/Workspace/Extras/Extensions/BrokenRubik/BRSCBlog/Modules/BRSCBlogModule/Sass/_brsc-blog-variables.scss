@@ -1,0 +1,31 @@
+$brsc-blog-title-font-family: if(variable-exists(sc-font-family-heading), $sc-font-family-heading, inherit);
+
+$brsc-blog-title-font-weight: 100;
+$brsc-blog-box-border-radius: 3px;
+$brsc-blog-box-border-color: #f3f3f3;
+$sc-color-dark-copy: #444444;
+
+$scab-margin-base: 5px;
+$sc-margin-base: if(variable-exists(sc-margin-base), $sc-margin-base, $scab-margin-base);
+$sc-margin-lv1: if(variable-exists(sc-margin-lv1), $sc-margin-lv1, $scab-margin-base);
+$sc-margin-lv2: if(variable-exists(sc-margin-lv2), $sc-margin-lv2, $scab-margin-base * 2);
+$sc-margin-lv3: if(variable-exists(sc-margin-lv3), $sc-margin-lv3, $scab-margin-base * 3);
+$sc-margin-lv4: if(variable-exists(sc-margin-lv4), $sc-margin-lv4, $scab-margin-base * 4);
+$sc-margin-lv5: if(variable-exists(sc-margin-lv5), $sc-margin-lv5, $scab-margin-base * 5);
+$sc-margin-lv6: if(variable-exists(sc-margin-lv6), $sc-margin-lv6, $scab-margin-base * 6);
+$sc-margin-lv7: if(variable-exists(sc-margin-lv7), $sc-margin-lv7, $scab-margin-base * 7);
+$sc-margin-lv8: if(variable-exists(sc-margin-lv8), $sc-margin-lv8, $scab-margin-base * 8);
+
+$scab-padding-base: 5px;
+$sc-padding-base: if(variable-exists(sc-padding-base), $sc-padding-base, $scab-padding-base);
+$sc-padding-lv1: if(variable-exists(sc-padding-lv1), $sc-padding-lv1, $scab-padding-base);
+$sc-padding-lv2: if(variable-exists(sc-padding-lv2), $sc-padding-lv2, $scab-padding-base * 2);
+$sc-padding-lv3: if(variable-exists(sc-padding-lv3), $sc-padding-lv3, $scab-padding-base * 3);
+$sc-padding-lv4: if(variable-exists(sc-padding-lv4), $sc-padding-lv4, $scab-padding-base * 4);
+$sc-padding-lv5: if(variable-exists(sc-padding-lv5), $sc-padding-lv5, $scab-padding-base * 5);
+$sc-padding-lv6: if(variable-exists(sc-padding-lv6), $sc-padding-lv6, $scab-padding-base * 6);
+$sc-padding-lv7: if(variable-exists(sc-padding-lv7), $sc-padding-lv7, $scab-padding-base * 7);
+$sc-padding-lv8: if(variable-exists(sc-padding-lv8), $sc-padding-lv8, $scab-padding-base * 8);
+
+$scab-color-error: if(variable-exists(sc-color-error), $sc-color-error, #c01a29);
+$scab-color-success: if(variable-exists(sc-color-success), $sc-color-success, #097839);

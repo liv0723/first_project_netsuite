@@ -1,0 +1,171 @@
+// comments:
+.brsc-blog-h2-title {
+    margin: $sc-margin-lv3 * 2 0;
+    font-size: 2rem;
+}
+
+.brsc-blog-post-comments,
+.brsc-blog-post-comments-form {
+    @extend .row;
+    margin-bottom: $sc-margin-lv5;
+}
+
+.brsc-blog-post-comments-wrapper {
+    padding: $sc-margin-lv5  $sc-margin-lv4;
+    border: 1px solid $brsc-blog-box-border-color;
+
+    @media(min-width: $screen-sm-min) {
+        padding: $sc-margin-lv5 * 2 $sc-margin-lv4 * 2;
+    }
+}
+
+.brsc-blog-post-form-container {
+    background: $brsc-blog-box-border-color;
+    padding: $sc-padding-lv4 $sc-padding-lv2;
+    margin-bottom: $sc-padding-lv4;
+    @media(min-width: $screen-md-min) {
+        padding: $sc-padding-lv4 * 2;
+    }
+}
+
+.brsc-blog-post-comments-content {
+    padding: 0 $sc-padding-lv5;
+    padding-bottom: $sc-padding-lv5;
+    margin-bottom: $sc-margin-lv4;
+    border-bottom: 1px solid $brsc-blog-box-border-color;
+
+    &.has-replies {
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    &.comment-replyment {
+        background: $brsc-blog-box-border-color;
+        border: 1px solid darken($brsc-blog-box-border-color, 5%);
+        border-left-width: 3px;
+        margin-left: $sc-margin-lv3;
+        margin-right: $sc-margin-lv3;
+        padding-top: $sc-padding-lv5;
+
+        .comment-author,
+        .comment-author a {
+            color: $sc-color-dark-copy;
+        }
+
+        @media(min-width: $screen-md-min) {
+            margin-left: $sc-margin-lv5 * 2;
+        }
+    }
+
+    .comment-author,
+    .comment-author a  {
+        font-weight: 500;
+        color: $sc-color-secondary;
+    }
+
+    .comment-author {
+        font-family: $brsc-blog-title-font-family;
+        font-size: 1.2rem;
+        > span {
+            font-weight: 100;
+            font-size: 0.8rem;
+            font-style: italic;
+        }
+    }
+
+    .comment-content {
+        margin-bottom: $sc-margin-lv2;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .comment-date {
+        font-size: 0.8rem;
+        margin-bottom: $sc-margin-lv2;
+    }
+}
+
+.brsc-blog-replies-border {
+    margin-bottom: $sc-margin-lv5;
+    border-bottom: 1px solid $brsc-blog-box-border-color;
+}
+
+.brsc-blog-post-comments-container {
+    &:last-child {
+        .brsc-blog-post-comments-content {
+            margin-bottom: 0;
+            &:not(.comment-replyment) {
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+.brsc-blog-post-comments-form {
+    .form-group-half {
+        @extend .col-sm-6;
+    }
+    .form-group-full {
+        @extend .col-sm-12;
+    }
+    .form-group {
+        label {
+            text-transform: uppercase;
+            font-family: $brsc-blog-title-font-family;
+            letter-spacing: 2.2px;
+            font-size: 11px;
+        }
+    }
+    form {
+        @extend .col-md-12;
+        textarea {
+            resize: none;
+            width: 100%;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="search"],
+        input[type="date"],
+        input[type="number"],
+        textarea {
+            border-radius: 3px;
+            margin-bottom: $sc-margin-lv1;
+            padding: $sc-padding-lv3;
+        }
+        input[type="checkbox"] {
+            margin-right: 6px;
+        }
+        .check-me-out {
+            display: block;
+            margin: $sc-margin-lv2 0 $sc-margin-lv4;
+        }
+        .btn-submit-comment {
+            @extend .button-primary;
+            @extend .button-large;
+            float: right;
+        }
+
+        .control-error {
+            color: $scab-color-error;
+            font-size: 0.9rem;
+            line-height: 1.35rem;
+            margin: 0 0 10px 1px;
+        }
+    }
+
+    .form-message {
+        @extend .col-md-12;
+        margin-top: $sc-margin-lv4;
+        text-align: center;
+
+        &.success {
+            color: $scab-color-success;
+        }
+
+        &.error {
+            color: $scab-color-error;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "dbConfig": {
+        "keepalive": false,
+        "port": 7777,
+        "https": false,
+        "key": "KEYPEM",
+        "cert": "CERTPEM"
+    },
+    "preserveManifest": false,
+    "folders": {
+        "source": {
+            "source_path": "Workspace",
+            "extras_path": "Workspace/Extras/Extensions"
+        },
+        "application_manifest": "Workspace/Extras",
+        "extensions": "Extras/Extensions",
+        "overrides": "Overrides",
+        "output": "LocalDistribution/tmp",
+        "local": "LocalDistribution",
+        "deploy": "DeployDistribution",
+        "extensions_dest_name": "Deploy_Extensions",
+        "extmech_parent": "-15",
+        "theme_path": "Workspace/Suite_Commerce_Base_Theme",
+        "overrides_path": "Workspace/Suite_Commerce_Base_Theme/Overrides"
+    },
+    "application": {
+        "application_manifest": {
+            "type": "SCS",
+            "version": "23.1.2",
+            "application": [
+                "shopping",
+                "myaccount",
+                "checkout"
+            ],
+            "extensible_resources": [
+                "skins",
+                "javascript",
+                "ssp-libraries",
+                "sass",
+                "templates",
+                "services",
+                "configuration",
+                "assets",
+                "suitescript2",
+                "translations"
+            ]
+        }
+    },
+    "services": {
+        "EXTENSION_SERVICE": {
+            "script": "customscript_ns_sc_ext_mech_restlets",
+            "deploy": "customdeploy_ns_sc_ext_mech_restlets"
+        },
+        "WEBSITE_SERVICE": {
+            "script": "customscript_ns_sc_ext_mech_restlets",
+            "deploy": "customdeploy_ns_sc_ext_mech_restlets"
+        },
+        "FILE_SERVICE": {
+            "script": "customscript_ns_sc_ext_mech_restlets",
+            "deploy": "customdeploy_ns_sc_ext_mech_restlets"
+        },
+        "SKIN_SERVICE": {
+            "script": "customscript_ns_sc_ext_mech_restlets",
+            "deploy": "customdeploy_ns_sc_ext_mech_restlets"
+        },
+        "DEPLOY_SERVICE": {
+            "script": "customscript_ext_mech_deployer_rest",
+            "deploy": "customdeploy_ext_mech_deployer_rest"
+        }
+    },
+    "deploy_config": {
+        "update": true,
+        "chunk_size": 80
+    },
+    "product": "gulp",
+    "credentials": {
+        "user_agent": "sc-theme-devtools/23.1.3",
+        "authID": "TESTDRIVE",
+        "key": "7ef079effd2fc4ac1b3056359dbd1b172dbaae7f5179f3777f26a02f44e1ca1e",
+        "secret": "cf07a3ac3d46ee11b2130c6b0863ce829ee8bfd7b0e4d4a37521ea8908ae23d4",
+        "account": "TSTDRV1941931",
+        "hostname": "TSTDRV1941931.restlets.api.netsuite.com",
+        "website": 9,
+        "domain": "sb3.scs.brokenrubik.dev",
+        "webapp_id": "27444",
+        "ssp_folder": "27444",
+        "is_scis": false
+    },
+    "nsdeployPath": ".nsdeploy"
+}
