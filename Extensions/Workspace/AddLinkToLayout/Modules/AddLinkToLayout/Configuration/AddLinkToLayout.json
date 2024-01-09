@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+        "AddLinkToLayout.config": {
+            "group": "extensions",
+            "subtab": "AddLinkToLayout_subtab",
+            "type": "string",
+            "title": "AddLinkToLayout_Title",
+            "description": "Config description example",
+            "default": "Default config example"
+        }
+    }
+}

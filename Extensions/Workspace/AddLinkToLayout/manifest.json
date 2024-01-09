@@ -1,0 +1,113 @@
+{
+    "name": "AddLinkToLayout",
+    "fantasyName": "AddLinkToLayout",
+    "vendor": "BR",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCS,SCA",
+    "target_version": {
+        "SCS": ">=23.1.1",
+        "SCA": ">=23.1.1"
+    },
+    "description": "Add a link to Layout",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/AddLinkToLayout.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/AddLinkToLayout/Configuration/AddLinkToLayout.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/AddLinkToLayout/Sass/_addlinktolayout-addlinktolayout.scss",
+            "myaccount": "Modules/AddLinkToLayout/Sass/_addlinktolayout-addlinktolayout.scss",
+            "checkout": "Modules/AddLinkToLayout/Sass/_addlinktolayout-addlinktolayout.scss"
+        },
+        "files": [
+            "Modules/AddLinkToLayout/Sass/_addlinktolayout-addlinktolayout.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/AddLinkToLayout/Templates/br_addlinktolayout_addlinktolayout.tpl",
+                    "Modules/AddLinkToLayout/Templates/br_addlinktolayout_secundaryview.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/AddLinkToLayout/Templates/br_addlinktolayout_addlinktolayout.tpl",
+                    "Modules/AddLinkToLayout/Templates/br_addlinktolayout_secundaryview.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/AddLinkToLayout/Templates/br_addlinktolayout_addlinktolayout.tpl",
+                    "Modules/AddLinkToLayout/Templates/br_addlinktolayout_secundaryview.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.js",
+            "myaccount": "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.js",
+            "checkout": "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.js",
+                    "Modules/AddLinkToLayout/JavaScript/AddLinkToLayout.View.js",
+                    "Modules/AddLinkToLayout/JavaScript/SecundaryView.View.js",
+                    "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.Model.js",
+                    "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.SS2Model.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.js",
+                    "Modules/AddLinkToLayout/JavaScript/AddLinkToLayout.View.js",
+                    "Modules/AddLinkToLayout/JavaScript/SecundaryView.View.js",
+                    "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.Model.js",
+                    "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.SS2Model.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.js",
+                    "Modules/AddLinkToLayout/JavaScript/AddLinkToLayout.View.js",
+                    "Modules/AddLinkToLayout/JavaScript/SecundaryView.View.js",
+                    "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.Model.js",
+                    "Modules/AddLinkToLayout/JavaScript/BR.AddLinkToLayout.AddLinkToLayout.SS2Model.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/AddLinkToLayout/SuiteScript/BR.AddLinkToLayout.AddLinkToLayout.js",
+        "files": [
+            "Modules/AddLinkToLayout/SuiteScript/BR.AddLinkToLayout.AddLinkToLayout.js",
+            "Modules/AddLinkToLayout/SuiteScript/AddLinkToLayout.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace/AddLinkToLayout",
+    "suitescript2": {
+        "files": [
+            "Modules/AddLinkToLayout/SuiteScript2/AddLinkToLayout.Service.ss"
+        ]
+    }
+}

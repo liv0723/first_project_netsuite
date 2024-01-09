@@ -26,7 +26,9 @@
         "deploy": "DeployDistribution",
         "extensions_dest_name": "Deploy_Extensions",
         "extmech_parent": "-15",
-        "extensions_path": [],
+        "extensions_path": [
+            "Workspace/AddLinkToLayout"
+        ],
         "theme_path": "Workspace/Extras/Suite_Commerce_Base_Theme",
         "overrides_path": "Workspace/Extras/Suite_Commerce_Base_Theme/Overrides"
     },
@@ -85,5 +87,6 @@
         "ssp_folder": "27444",
         "is_scis": false
     },
-    "nsdeployPath": ".nsdeploy"
+    "nsdeployPath": ".nsdeploy",
+    "product": "gulp"
 }

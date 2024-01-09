@@ -1,0 +1,16 @@
+{
+  "generator-extension": {
+    "ext_application": {
+      "AddALInkToTheLayout": [
+        "shopping",
+        "myaccount",
+        "checkout"
+      ],
+      "AddLinkToLayout": [
+        "shopping",
+        "myaccount",
+        "checkout"
+      ]
+    }
+  }
+}
