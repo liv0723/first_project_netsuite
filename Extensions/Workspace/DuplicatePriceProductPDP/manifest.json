@@ -1,0 +1,107 @@
+{
+    "name": "DuplicatePriceProductPDP",
+    "fantasyName": "DuplicatePriceProductPDP",
+    "vendor": "BR",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCS,SCA",
+    "target_version": {
+        "SCS": ">=23.1.1",
+        "SCA": ">=23.1.1"
+    },
+    "description": "Duplicate price of produnct into the PDP",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/DuplicatePriceProductPDP.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/DuplicatePriceProductPDP/Configuration/DuplicatePriceProductPDP.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/DuplicatePriceProductPDP/Sass/_duplicatepriceproductpdp-duplicatepriceproductpdp.scss",
+            "myaccount": "Modules/DuplicatePriceProductPDP/Sass/_duplicatepriceproductpdp-duplicatepriceproductpdp.scss",
+            "checkout": "Modules/DuplicatePriceProductPDP/Sass/_duplicatepriceproductpdp-duplicatepriceproductpdp.scss"
+        },
+        "files": [
+            "Modules/DuplicatePriceProductPDP/Sass/_duplicatepriceproductpdp-duplicatepriceproductpdp.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/DuplicatePriceProductPDP/Templates/br_duplicatepriceproductpdp_duplicatepriceproductpdp.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/DuplicatePriceProductPDP/Templates/br_duplicatepriceproductpdp_duplicatepriceproductpdp.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/DuplicatePriceProductPDP/Templates/br_duplicatepriceproductpdp_duplicatepriceproductpdp.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.js",
+            "myaccount": "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.js",
+            "checkout": "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.js",
+                    "Modules/DuplicatePriceProductPDP/JavaScript/DuplicatePriceProductPDP.View.js",
+                    "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.Model.js",
+                    "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.SS2Model.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.js",
+                    "Modules/DuplicatePriceProductPDP/JavaScript/DuplicatePriceProductPDP.View.js",
+                    "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.Model.js",
+                    "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.SS2Model.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.js",
+                    "Modules/DuplicatePriceProductPDP/JavaScript/DuplicatePriceProductPDP.View.js",
+                    "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.Model.js",
+                    "Modules/DuplicatePriceProductPDP/JavaScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.SS2Model.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/DuplicatePriceProductPDP/SuiteScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.js",
+        "files": [
+            "Modules/DuplicatePriceProductPDP/SuiteScript/BR.DuplicatePriceProductPDP.DuplicatePriceProductPDP.js",
+            "Modules/DuplicatePriceProductPDP/SuiteScript/DuplicatePriceProductPDP.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace/DuplicatePriceProductPDP",
+    "suitescript2": {
+        "files": [
+            "Modules/DuplicatePriceProductPDP/SuiteScript2/DuplicatePriceProductPDP.Service.ss"
+        ]
+    }
+}

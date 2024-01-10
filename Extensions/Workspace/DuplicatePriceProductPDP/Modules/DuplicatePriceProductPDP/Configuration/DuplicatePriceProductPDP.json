@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+        "DuplicatePriceProductPDP.config": {
+            "group": "extensions",
+            "subtab": "DuplicatePriceProductPDP_subtab",
+            "type": "string",
+            "title": "DuplicatePriceProductPDP_Title",
+            "description": "Config description example",
+            "default": "Default config example"
+        }
+    }
+}

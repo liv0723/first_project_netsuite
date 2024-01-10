@@ -10,6 +10,16 @@
         "shopping",
         "myaccount",
         "checkout"
+      ],
+      "AddMessageInsideOrderOfCar": [
+        "shopping",
+        "myaccount",
+        "checkout"
+      ],
+      "DuplicatePriceProductPDP": [
+        "shopping",
+        "myaccount",
+        "checkout"
       ]
     }
   }

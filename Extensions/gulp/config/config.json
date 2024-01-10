@@ -27,7 +27,8 @@
         "extensions_dest_name": "Deploy_Extensions",
         "extmech_parent": "-15",
         "extensions_path": [
-            "Workspace/AddLinkToLayout"
+            "Workspace/AddLinkToLayout",
+            "Workspace/DuplicatePriceProductPDP"
         ],
         "theme_path": "Workspace/Extras/Suite_Commerce_Base_Theme",
         "overrides_path": "Workspace/Extras/Suite_Commerce_Base_Theme/Overrides"
