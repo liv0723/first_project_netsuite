@@ -1,0 +1,117 @@
+{
+    "name": "AddExternalUsersToPLP",
+    "fantasyName": "AddExternalUsersToPLP",
+    "vendor": "BR",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCS,SCA",
+    "target_version": {
+        "SCS": ">=23.1.1",
+        "SCA": ">=23.1.1"
+    },
+    "description": "add external users to a plp",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/AddExternalUsersToPLP.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/AddExternalUsersToPLP/Configuration/AddExternalUsersToPLP.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/AddExternalUsersToPLP/Sass/_addexternaluserstoplp-addexternaluserstoplp.scss",
+            "myaccount": "Modules/AddExternalUsersToPLP/Sass/_addexternaluserstoplp-addexternaluserstoplp.scss",
+            "checkout": "Modules/AddExternalUsersToPLP/Sass/_addexternaluserstoplp-addexternaluserstoplp.scss"
+        },
+        "files": [
+            "Modules/AddExternalUsersToPLP/Sass/_addexternaluserstoplp-addexternaluserstoplp.scss",
+            "Modules/AddExternalUsersToPLP/Sass/_addexternaluserstoplp-addexternaluserstoplpcell.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/AddExternalUsersToPLP/Templates/br_addexternaluserstoplp_addexternaluserstoplp.tpl",
+                    "Modules/AddExternalUsersToPLP/Templates/br_addexternaluserstoplp_addexternaluserstoplpcell.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/AddExternalUsersToPLP/Templates/br_addexternaluserstoplp_addexternaluserstoplp.tpl",
+                    "Modules/AddExternalUsersToPLP/Templates/br_addexternaluserstoplp_addexternaluserstoplpcell.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/AddExternalUsersToPLP/Templates/br_addexternaluserstoplp_addexternaluserstoplp.tpl",
+                    "Modules/AddExternalUsersToPLP/Templates/br_addexternaluserstoplp_addexternaluserstoplpcell.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.js",
+            "myaccount": "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.js",
+            "checkout": "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/AddExternalUsersToPLP.View.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.Model.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.SS2Model.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.Cell.View.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.Collection.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/AddExternalUsersToPLP.View.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.Model.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.SS2Model.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.Cell.View.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.Collection.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/AddExternalUsersToPLP.View.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.Model.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.SS2Model.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.Cell.View.js",
+                    "Modules/AddExternalUsersToPLP/JavaScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.Collection.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/AddExternalUsersToPLP/SuiteScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.js",
+        "files": [
+            "Modules/AddExternalUsersToPLP/SuiteScript/BR.AddExternalUsersToPLP.AddExternalUsersToPLP.js",
+            "Modules/AddExternalUsersToPLP/SuiteScript/AddExternalUsersToPLP.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace/AddExternalUsersToPLP",
+    "suitescript2": {
+        "files": [
+            "Modules/AddExternalUsersToPLP/SuiteScript2/AddExternalUsersToPLP.Service.ss"
+        ]
+    }
+}

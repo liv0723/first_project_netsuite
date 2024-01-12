@@ -1,0 +1,33 @@
+/*
+	Sass Application Entry Point
+	Link all your sass dependencies in the right order
+
+	Example:
+	@import "other-sass-file.scss";
+	@import "../../<other module>/Sass/other-sass-file.scss";
+*/ 
+
+.myBR-collection-view{
+	border: .2rem solid red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+
+.container-items{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.myBR-collection-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+	background-color: aqua;
+	margin: 4px;
+	text-align: center;
+}

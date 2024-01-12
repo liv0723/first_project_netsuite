@@ -20,6 +20,11 @@
         "shopping",
         "myaccount",
         "checkout"
+      ],
+      "AddExternalUsersToPLP": [
+        "shopping",
+        "myaccount",
+        "checkout"
       ]
     }
   }

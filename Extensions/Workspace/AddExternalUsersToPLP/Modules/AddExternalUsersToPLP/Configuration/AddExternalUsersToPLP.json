@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+        "AddExternalUsersToPLP.config": {
+            "group": "extensions",
+            "subtab": "AddExternalUsersToPLP_subtab",
+            "type": "string",
+            "title": "AddExternalUsersToPLP_Title",
+            "description": "Config description example",
+            "default": "Default config example"
+        }
+    }
+}
